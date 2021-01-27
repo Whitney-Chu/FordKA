@@ -239,7 +239,7 @@ data %>%
   mutate(cluster = sub_grp) %>%
   head
 
-#Itâs also possible to draw the dendrogram with a border around the 2 clusters. 
+#possible to draw the dendrogram with a border around the 2 clusters. 
 #The argument border is used to specify the border colors for the rectangles:
 rect.hclust(hc3, k = 2, border = 2:5)
 
@@ -426,7 +426,7 @@ data %>%
   mutate(cluster = sub_grp) %>%
   head
 
-#Itâs also possible to draw the dendrogram with a border around the 2 clusters. 
+#possible to draw the dendrogram with a border around the 2 clusters. 
 #The argument border is used to specify the border colors for the rectangles:
 rect.hclust(hc3, k = 4, border = 2:5)
 
